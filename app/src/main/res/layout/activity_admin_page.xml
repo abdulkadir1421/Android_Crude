@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home4"
+    tools:context=".AdminPanel.AdminPage">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="740dp"
+        android:layout_height="406dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="1112dp"
+        android:text="WelCome to Student managementSystem"
+        android:textAlignment="center"
+        android:textColor="#121211"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnstart"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="1078dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="309dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="312dp"
+        android:background="#F4F4F6"
+        android:backgroundTint="#EFE5E5"
+        android:fontFamily="sans-serif-black"
+        android:text="Start "
+        android:textSize="48sp"
+        android:visibility="visible"
+        app:icon="@android:drawable/btn_star_big_on"
+        tools:visibility="visible" />
+</RelativeLayout>

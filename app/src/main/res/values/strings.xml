@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ColledgeManagementSystem</string>
+
+    <array name="departments">
+        <item>JEE</item>
+        <item>GAVE</item>
+        <item>CF</item>
+        <item>C++</item>
+        <item>WDF</item>
+    </array>
+</resources>
